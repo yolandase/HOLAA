@@ -39,3 +39,55 @@ datos personales y estudios.
   
 El documento debe quedar como el de la imagen de abajo
 En este ejercicio no debes usar css.
+
+### Ejercicio 4
+
+
+Partiendo del ejercicio 02 haz los siguientes cambios:
+
+- Elimina el formato con < pre > y usa una lista.
+- Subraya Nombre, Email y Teléfono de los datos personales de los empleados.
+
+  
+Aplica los estilos necesarios para que el ejercicio se vea como el de la imagen de abajo.
+Los estilos deberán ir en un fichero css aparte del documento html.
+
+
+### Ejercicio 5
+Vamos a practicar las etiquetas de quotation a la vez que le damos un poco de estilo.
+Los requisitos a cumplir son:
+- Body
+- Fuente: Arial, sans-serif
+     - Color de fondo: blanco
+      - Color: 333
+- Encabezados
+     - H1
+- Tamaño de letra: 24px
+- Color: #003366
+    - H2
+- Tamaño de letra: 20px
+- Color: #006699
+- Párrafos
+  - Tamaño de fuente: 16px
+- Blockquote
+   - Tamaño de fuente: 18px
+    - Color: #444
+   - Color de fondo: #e0f7fa
+- Abbr
+   - Color: #d32f2f
+- Cite
+   - Estilo de fuente: Italic
+   - Color: #d32f2f
+- Address
+   - Tamaño de fuente: 16px
+   - Color: #e0f7fa
+- a
+    - Color: #00796b
+- bdo
+   - Izquierda a derecha
+    - Color: #00796b
+   - Derecha a izquierda
+   - Color: #d32f2f
+ 
+     
+Aplica los estilos necesarios para que el ejercicio se vea como la imagen de abajo.

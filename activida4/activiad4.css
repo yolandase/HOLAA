@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #00008b; /* Azul oscuro */
+}
+
+header {
+    background-color: #fde70f;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0045a7;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0045a7;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    width: 200px; /* Tamaño más grande */
+    height: auto; /* Mantiene la proporción */
+}
+
+fieldset {
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00008b; /* Azul oscuro */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00008b; /* Azul oscuro */
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #ead917; 
+}
+
+.caja-suscripcion {
+    background-color: #0045a7; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: #ffffff; /* Texto blanco para contraste */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #351ee2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #00008b; /* Azul oscuro */
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #2c19ba;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #f3d43a;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+
+
+
+
+
+
+
+

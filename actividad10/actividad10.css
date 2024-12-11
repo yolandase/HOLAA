@@ -1,0 +1,59 @@
+@font-face {
+    font-family: RibeyeMarrow;
+    src: url('RibeyeMarrow.ttf');
+  }
+  
+  @font-face {
+    font-family: Lobster;
+    src: url('Lobster.ttf');
+  }
+  
+  @font-face {
+    font-family: JustAnotherHand;
+    src: url('JustAnotherHand.ttf'); 
+  }
+  
+  body {
+    background-color: #ccac4d;
+  }
+  
+  h1 {
+    font-family: RibeyeMarrow;
+    font-size: 3rem;
+    letter-spacing: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  p.intro {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: Lobster;
+    line-height: 200%;
+    text-align: justify;
+  }
+  
+  strong {
+    font-family: Lobster; 
+  }
+  
+  cite {
+    text-decoration: underline;
+  }
+  
+  p.latin {
+    margin-left: 20%;
+    font-family: Lobster;
+    font-size: 2.5rem;
+  }
+  
+  p.español {
+    margin-top: 0;
+    margin-left: 20%;
+    margin-bottom: 3rem;
+    color: #333;
+    font-family: JustAnotherHand;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    text-align: justify;
+  }

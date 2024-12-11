@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Ejercicio 06 relacion HTML" />
+    <title>Actividad 13 HTMl</title>
+    <link rel="stylesheet" href="ejer13.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </fieldset>
+         <fieldset>
+            <legend>Datos del proyecto</legend>
+            <label for="descripcion">Breve descripción del proyecto:</label>
+            <textarea id="descripcion" name="descripcion" required></textarea>
+            <label>Estado actual del proyecto:</label>
+            <input type="radio" name="estado" value="planeamiento" checked> En planteamiento
+            <input type="radio" name="estado" value="planificacion"> En planificación
+            <input type="radio" name="estado" value="ejecucion"> En ejecución
+            <input type="radio" name="estado" value="finalizado"> Ya finalizado
+            
+            <label for="presupuesto">Presupuesto aproximado (en €):</label>
+            <input type="number" id="presupuesto" name="presupuesto"required>
+       </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

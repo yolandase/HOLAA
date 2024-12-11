@@ -1,0 +1,65 @@
+
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+
+
+#parrafo-id {
+    background-color: grey;
+    color: black;
+}
+
+
+h1 {
+    color: black;
+}
+
+h1.especial {
+    color: blue;
+}
+
+
+h2 {
+    border: 1px solid orange;
+}
+
+h3 {
+    border: 1px solid orange;
+}
+
+
+ul > li {
+    color: red; 
+}
+
+ul > li > ul > li {
+    color: green; 
+}
+
+
+p > img {
+    border: 5px solid black; 
+}
+
+
+img[alt="segunda"] {
+    border: 5px solid red; 
+}
+
+
+img[src$=".jpg"] {
+    width: 150px; 
+    height: auto; 
+}
+
+
+h3  {
+    background-color: blue;
+}
+
+/* Encabezado h3 antes de un párrafo */
+p + h3 {
+    background-color: pink;
+}
+
+
